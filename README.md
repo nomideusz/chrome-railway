@@ -1,6 +1,6 @@
 # Deploy and Host Google Chrome (Cloud Browser) on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/chrome-browser?utm_medium=integration&utm_source=button&utm_campaign=chrome-browser)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/google-chrome?utm_medium=integration&utm_source=button&utm_campaign=google-chrome)
 
 This template runs a full desktop [Google Chrome](https://www.google.com/chrome/) browser in the cloud, streamed to any device through the [linuxserver.io](https://docs.linuxserver.io/images/docker-chrome/) Selkies web interface. Open your Railway domain, log in, and you're inside a real browser running on the server — bookmarks, extensions, downloads, and sessions persist between visits.
 
