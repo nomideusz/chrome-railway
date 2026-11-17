@@ -32,7 +32,7 @@ Notes and limits:
 
 - Keep the login strong: an open cloud browser is a proxy for whoever finds it. The password gate is the whole security model — don't remove it.
 - Rendering is CPU-based (no GPU on Railway). Fine for browsing and light video; not for WebGL-heavy work.
-- Google Chrome is memory-hungry: give the service 1–2 GB. Heavy tab hoarding needs more.
+- Google Chrome needs at least 1 GB. On a 512 MB service (Railway's Free plan) it opens, but every real page crashes with "Error code 9" because it runs out of memory, so the template shows a page saying so instead of starting it. 1–2 GB for normal browsing; heavy tab hoarding needs more.
 - Want a different engine? The same author publishes [Chromium](https://railway.com/deploy/chromium?referralCode=sLjDXb) and [Firefox](https://railway.com/deploy/firefox-browser?referralCode=sLjDXb) templates too.
 - Traffic egresses from Railway's IP range — sites that block datacenter IPs (some streaming services) may object.
 - Abuse note: this is a browser, not an anonymizer. Use it within Railway's terms of service and the laws that apply to you.
